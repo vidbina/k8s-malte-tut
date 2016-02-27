@@ -8,4 +8,4 @@ push:
 	docker push mobilityhouse/k8stutorial
  
 run-docker:
-	docker run -it --rm mobilityhouse/k8stutorial
+	docker run -P -it --rm mobilityhouse/k8stutorial
